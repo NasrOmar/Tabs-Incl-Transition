@@ -1,2 +1,2 @@
-# Tabs-Incl-Transition
+# Tabs Incl Transition
 Tabs including transition
