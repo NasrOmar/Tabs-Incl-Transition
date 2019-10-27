@@ -20,6 +20,14 @@ function tabClick(trigger) {
 		trigger.target.querySelector(".tab-link").className += " tab-link-active";
 		document.getElementById(trigger.target.querySelector(".tab-link").href.split("#")[1]).className += " tab-panel-active";
 	}
+	
+	if (document.getElementById("tab-photos") == document.getElementsByClassName("tab-panel-active")[0]) {
+		document.getElementById("float").className = "float float-photos";
+	}else if (document.getElementById("tab-home") == document.getElementsByClassName("tab-panel-active")[0]) {
+		document.getElementById("float").className = "float";
+	}else if (document.getElementById("tab-videos") == document.getElementsByClassName("tab-panel-active")[0]) {
+		document.getElementById("float").className = "float float-videos";
+	}
 }
 
 const element = document.getElementById("tab");

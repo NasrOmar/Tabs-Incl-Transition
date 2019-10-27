@@ -41,10 +41,9 @@ body {
 
 .tab-link-active {
 	color: #FFF;
-	background-color: #232323;
 }
 .tab-link-active:hover {
-	color: #C1C1C1;
+	color: #FFF;
 }
 
 .tab-content {
@@ -65,4 +64,25 @@ body {
 	position: relative;
 	padding: 25px;
 	opacity: 1;
+}
+
+.float{
+   	position: absolute;
+   	left:100px;
+	top: 5px;
+   	transition: all .4s ease-out;
+	height: 29px;
+	width: 90.5px;
+	background-color: #464646;
+	z-index: -1;
+}
+
+.float-photos {
+	left: 251px;
+	width: 95.3px;
+}
+
+.float-videos {
+	left: 406px;
+	width: 93.98px;
 }
